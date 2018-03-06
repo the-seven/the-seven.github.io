@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'asphaltic';
+    src: url('../fonts/asphaltic-webfont.eot');
+    src: 
+        url('../fonts/asphaltic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/asphaltic-webfont.woff2') format('woff2'),
+        url('../fonts/asphaltic-webfont.woff') format('woff'),
+        url('../fonts/asphaltic-webfont.ttf') format('truetype'),
+        url('../fonts/asphaltic-webfont.svg#ASPHALTICSCRATCHRUSBYLYAJKA') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-weight: normal;
+    font-style: normal;
+}
+html, body{
+    /*height: 100%;*/
+    min-height: 100%;
+    position: relative;
+}
+body{
+    background-color: #000000;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+    transition: color 300ms;
+}
+a:hover{
+    color:#dedede;
+    text-decoration: none;
+}
+#main{    
+    min-height: 100vh;
+}
+.bg{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/bg7.jpg') no-repeat top left;
+    background-size: cover;
+}
+.slider.bg1{
+    background: url('../images/bg1.jpg') no-repeat top left;
+    background-size: cover;
+    animation-delay: 0s;
+}
+.slider.bg2{
+    background: url('../images/bg2.jpg') no-repeat top left;
+    background-size: cover;
+    animation-delay: 7s;
+}
+.slider.bg3{
+    background: url('../images/bg3.jpg') no-repeat top left;
+    background-size: cover;
+    animation-delay: 14s;
+}
+.slider.bg4{
+    background: url('../images/bg4.jpg') no-repeat top left;
+    background-size: cover;
+    animation-delay: 21s;
+}
+.slider.bg5{
+    background: url('../images/bg5.jpg') no-repeat top left;
+    background-size: cover;
+    animation-delay: 28s;
+}
+.slider.bg6{
+    background: url('../images/bg6.jpg') no-repeat top left;
+    background-size: cover;
+    animation-delay: 35s;
+}
+.slider.bg7{
+    background: url('../images/bg7.jpg') no-repeat top left;
+    background-size: cover;
+    animation-delay: 42s;
+}
+.slider{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;    
+    animation: imageAnimation 49s linear infinite 0s;
+}
+#main-col-left{
+    padding-top: 20px;
+    position: relative;
+    /*min-height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+#main-col-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.logo{
+    display: block;
+    width: 100px;
+    height: 140px;
+}
+.poster-images{
+    display:flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.poster-images a{
+    display: block;
+    margin-right: 20px;
+}
+.poster-images a:last-child{
+    margin: 0;
+}
+.title{
+    font-family: 'asphaltic', 'Oswald', sans-serif, calibri;
+    color: #000000;
+    font-size: 48px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background-color: #dfd200;
+    line-height: 1;
+    max-width: 400px;
+    margin: 20px 0;
+}
+.title-poster{
+    font-family: 'asphaltic', 'Oswald', sans-serif, calibri;
+    color: #000000;
+    font-size: 72px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background-color: #dfd200;
+    line-height: 1;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.submit-form{
+    max-width: 400px;
+    height: 204px;
+}
+.submit-done{
+    display: none;
+    text-align: center;
+    font-family: 'asphaltic', 'Oswald', sans-serif, calibri;
+    color: #dfd200;
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 30px;
+    max-width: 400px;
+}
+.form{
+    display: block;
+    max-width: 400px;
+}
+.form input.input-text{
+    display: block;
+    height: 55px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    font-family: 'Calibri', Arial;
+    font-size: 14pt;
+}
+.form input.input-submit{
+    margin: 0 auto;
+    display: block;
+    width: 220px;
+    height: 54px;
+    background-color: #9d0b0e;
+    border: 1px solid #ffffff;
+    border-radius: 27px;
+    font-family: 'asphaltic', 'Oswald', sans-serif, calibri;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 36px;
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+.form input.input-submit:hover{
+    background-color: #b30d11;
+}
+.text-block{
+    max-width: 400px;
+    background-color: #000000;
+    opacity: 0.77;
+    color: #ffffff;
+    font-size: 14pt;
+    padding: 10px;
+}
+.text-bold{
+    font-weight: bold;
+}
+.list-row{
+    max-width: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.list-col-left{
+    text-align: left;
+}
+.list-col-right{
+    text-align: right;
+}
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.social-link{
+    display: block;
+    width: 70px;
+    height: 70px;
+    background-color: #000000;
+    border: 1px solid #9d0b0e;
+    color: #9d0b0e;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.7;
+    opacity: 0.77;
+    transition: opacity 300ms, border-color 300ms;
+    margin-bottom: 7px;
+}
+.social-link:hover{
+    opacity: 1;
+    border-color: #dedede;
+}
+@media screen and (min-width: 720px){
+    .title-poster{
+        align-self: flex-start;
+        position: fixed;
+        left: 20px;
+        top: 20px;
+    }
+    .soundcloud{
+        align-self: flex-start;
+        position: fixed;
+        left: 20px;
+        top: 200px;
+    }
+    #main-col-left{
+        align-items: flex-end;
+    }
+}
+@media screen and (min-width: 992px){
+    #main-col-left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo{
+        width: 150px;
+        height: 210px;
+        margin-left: 25px;
+    }
+    .poster-images{
+        margin: 20px 0;
+    }
+    #main-col-right{
+        align-items: flex-end;
+    }
+    #main-col-right .title,
+    #main-col-right .submit-form,
+    #main-col-right .text-block,
+    #main-col-right .social-links{
+        width: 100%;
+    }
+    .form input.input-text{
+        width: 100%;
+    }
+    .title-poster{
+        position: static;
+    }
+    .soundcloud{
+        position: static;
+    }
+}
+@keyframes imageAnimation {
+    0%{ opacity: 0 }
+    6%{ opacity: 1 }
+    20%{ opacity: 1 }
+    26%{ opacity: 0 }
+    100%{ opacity: 0 }
+}
