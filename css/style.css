@@ -38,43 +38,79 @@ a:hover{
     left:0;
     width: 100%;
     height: 100%;
-    background: url('../images/bg7.jpg') no-repeat top left;
+    /*background: url('../images/bg7.jpg') no-repeat top left;*/
+    background: url('../images/bg-logo.jpg') no-repeat top center;
     background-size: cover;
 }
 .slider.bg1{
-    background: url('../images/bg1.jpg') no-repeat top left;
+    background: url('../images/bg1.jpg') no-repeat top center;
     background-size: cover;
     animation-delay: 0s;
 }
-.slider.bg2{
-    background: url('../images/bg2.jpg') no-repeat top left;
+.slider.bg-logo1{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
     background-size: cover;
     animation-delay: 7s;
 }
-.slider.bg3{
-    background: url('../images/bg3.jpg') no-repeat top left;
+.slider.bg2{
+    background: url('../images/bg2.jpg') no-repeat top center;
     background-size: cover;
     animation-delay: 14s;
 }
-.slider.bg4{
-    background: url('../images/bg4.jpg') no-repeat top left;
+.slider.bg-logo2{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
     background-size: cover;
     animation-delay: 21s;
 }
-.slider.bg5{
-    background: url('../images/bg5.jpg') no-repeat top left;
+.slider.bg3{
+    background: url('../images/bg3.jpg') no-repeat top center;
     background-size: cover;
     animation-delay: 28s;
 }
-.slider.bg6{
-    background: url('../images/bg6.jpg') no-repeat top left;
+.slider.bg-logo3{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
     background-size: cover;
     animation-delay: 35s;
 }
-.slider.bg7{
-    background: url('../images/bg7.jpg') no-repeat top left;
+.slider.bg4{
+    background: url('../images/bg4.jpg') no-repeat top center;
     background-size: cover;
     animation-delay: 42s;
+}
+.slider.bg-logo4{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 49s;
+}
+.slider.bg5{
+    background: url('../images/bg5.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 56s;
+}
+.slider.bg-logo5{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 63s;
+}
+.slider.bg6{
+    background: url('../images/bg6.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 70s;
+}
+.slider.bg-logo6{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 77s;
+}
+.slider.bg7{
+    background: url('../images/bg7.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 84s;
+}
+.slider.bg-logo7{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 91s;
 }
 .slider{
     position: absolute;
@@ -83,22 +119,21 @@ a:hover{
     width: 100%;
     height: 100%;
     opacity: 0;    
-    animation: imageAnimation 49s linear infinite 0s;
+    /*animation: imageAnimation 49s linear infinite 0s;*/
+    animation: imageAnimation 98s linear infinite 0s;
 }
 #main-col-left{
-    padding-top: 20px;
-    position: relative;
-    /*min-height: 100vh;*/
-    display: flex;
+    display: flex;    
+    position: relative;    
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 #main-col-right{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    /*padding-bottom: 20px;*/
 }
 .logo{
     display: block;
@@ -258,28 +293,16 @@ a:hover{
 .video-link:hover{
     background-color: #b30d11;
 }
-@media screen and (min-width: 720px){
-    .title-poster{
-        align-self: flex-start;
-        position: fixed;
-        left: 20px;
-        top: 20px;
-    }
-    .soundcloud{
-        align-self: flex-start;
-        position: fixed;
-        left: 20px;
-        top: 200px;
-    }
-    #main-col-left{
-        align-items: flex-end;
-    }
+.footer{
+    font-size: 12px;
+    text-align: center;
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 768px){
     #main-col-left{
-        display: flex;
-        flex-direction: column;
         align-items: flex-start;
+    }
+    #main-col-right{
+        align-items: flex-end;
     }
     .logo{
         width: 150px;
@@ -289,8 +312,8 @@ a:hover{
     .poster-images{
         margin: 20px 0;
     }
-    #main-col-right{
-        align-items: flex-end;
+    #main-col-left .title{
+        width: 100%;
     }
     #main-col-right .title,
     #main-col-right .submit-form,
@@ -311,8 +334,8 @@ a:hover{
 }
 @keyframes imageAnimation {
     0%{ opacity: 0 }
-    6%{ opacity: 1 }
-    20%{ opacity: 1 }
-    26%{ opacity: 0 }
+    2%{ opacity: 1 }
+    9%{ opacity: 1 }
+    11%{ opacity: 0 }
     100%{ opacity: 0 }
 }
