@@ -112,6 +112,108 @@ a:hover{
     background-size: cover;
     animation-delay: 91s;
 }
+/*~*/
+.slider.bg8{
+    background: url('../images/bg8.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 98s;
+}
+.slider.bg-logo8{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 105s;
+}
+.slider.bg9{
+    background: url('../images/bg9.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 112s;
+}
+.slider.bg-logo9{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 119s;
+}
+.slider.bg10{
+    background: url('../images/bg10.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 126s;
+}
+.slider.bg-logo10{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 133s;
+}
+.slider.bg11{
+    background: url('../images/bg11.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 140s;
+}
+.slider.bg-logo11{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 147s;
+}
+.slider.bg12{
+    background: url('../images/bg12.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 154s;
+}
+.slider.bg-logo12{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 161s;
+}
+.slider.bg13{
+    background: url('../images/bg13.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 168s;
+}
+.slider.bg-logo13{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 175s;
+}
+.slider.bg14{
+    background: url('../images/bg14.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 182s;
+}
+.slider.bg-logo14{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 189s;
+}
+.slider.bg15{
+    background: url('../images/bg15.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 196s;
+}
+.slider.bg-logo15{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 203s;
+}
+.slider.bg16{
+    background: url('../images/bg16.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 210s;
+}
+.slider.bg-logo16{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 217s;
+}
+.slider.bg17{
+    background: url('../images/bg17.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 224s;
+}
+.slider.bg-logo17{
+    background: url('../images/bg-logo.jpg') no-repeat top center;
+    background-size: cover;
+    animation-delay: 231s;
+}
+/*~*/
 .slider{
     position: absolute;
     top:0;
@@ -120,7 +222,8 @@ a:hover{
     height: 100%;
     opacity: 0;    
     /*animation: imageAnimation 49s linear infinite 0s;*/
-    animation: imageAnimation 98s linear infinite 0s;
+    /*animation: imageAnimation 98s linear infinite 0s;*/
+    animation: imageAnimation 238s linear infinite 0s;
 }
 #main-col-left{
     display: flex;    
@@ -335,7 +438,7 @@ a:hover{
 @keyframes imageAnimation {
     0%{ opacity: 0 }
     2%{ opacity: 1 }
-    9%{ opacity: 1 }
-    11%{ opacity: 0 }
+    5%{ opacity: 1 }
+    7%{ opacity: 0 }
     100%{ opacity: 0 }
 }
